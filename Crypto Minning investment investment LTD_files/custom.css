@@ -30,22 +30,22 @@ label {
 input[type="text"], input[type="password"], input[type="email"] {
 	width: 100%;
 	height: 40px;
-	border: 1px solid #271e1a;
+	border: 1px solid #FF6464;
 	padding: 0 15px;
 	border-radius: 4px;
 	font-size: 14px;
-	background: #271e1a;
+	background: #FF6464;
 	color: #fff;
 }
 textarea {
 	width: 100%;
 	height: 140px !important;
-	border: 1px solid #271e1a;
+	border: 1px solid #FF6464;
 	padding: 10px;
 	border-radius: 4px;
 	resize: none;
 	font-size: 14px;
-	background: #271e1a;
+	background: #FF6464;
 	color: #fff;
 }
 input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus, select:focus {
@@ -53,7 +53,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 }
 input[type="submit"], input[type="button"] {
 	background: rgb(247,155,73);
-	background: linear-gradient(180deg, rgba(247, 155, 73, 1) 0%, rgba(214, 114, 26, 1) 100%);
+	background: linear-gradient(180deg, rgba(247, 155, 73, 1) 0%, #fdbf50 100%);
 	color: #fff;
 	text-transform: uppercase;
 	padding: 0 30px;
@@ -69,13 +69,13 @@ input[type="submit"]:hover, input[type="button"]:hover {
 }
 select {
 	font-size: 14px;
-	border: 1px solid #271e1a;
+	border: 1px solid #FF6464;
 	border-radius: 4px;
 	width: auto;
 	appearance: none;
 	-moz-appearance: none;
 	-webkit-appearance: none;
-	background: #271e1a url(images/calculatoricon.png) no-repeat right center;
+	background: #FF6464 url(images/calculatoricon.png) no-repeat right center;
 	padding: 5px 10px 5px 10px;
 	color: #fff;
 	min-width: 65px;
@@ -145,8 +145,8 @@ ul {
 	color: #e59a58;
 }
 .mainmenu {
-	background: rgb(59,45,37);
-	background: linear-gradient(180deg, rgba(59, 45, 37, 1) 0%, rgba(33, 19, 11, 1) 100%);
+	background: #2c1654;
+	background: linear-gradient(180deg, #2c1654 0%, rgba(33, 19, 11, 1) 100%);
 	border-radius: 50px;
 	border-bottom: 4px solid #b8865a;
 	text-align: center;
@@ -174,12 +174,12 @@ ul {
 	border: none
 }
 .navbar-nav > li.login {
-	background: rgb(134,94,59);
-	background: linear-gradient(0deg, rgba(134, 94, 59, 1) 0%, rgba(192, 140, 95, 1) 100%);
+	background: #00BE65;
+	background: linear-gradient(0deg, #00BE65 0%, #00be65) 100%);
 }
 .navbar-nav > li a:hover {
-	background: rgb(134,94,59);
-	background: linear-gradient(0deg, rgba(134, 94, 59, 1) 0%, rgba(192, 140, 95, 1) 100%);
+	background: #00BE65;
+	background: linear-gradient(0deg, #00BE65 0%, #00be65) 100%);
 }
 .mainbanner {
 	padding: 65px 0 0 0;
@@ -212,12 +212,12 @@ ul {
 }
 .bannertexts a.login {
 	color: #fff;
-	background: rgb(134,94,59);
-	background: linear-gradient(0deg, rgba(134, 94, 59, 1) 0%, rgba(192, 140, 95, 1) 100%);
+	background: #00BE65;
+	background: linear-gradient(0deg, #00BE65 0%, #00be65) 100%);
 	margin: 0 5px 0 0
 }
 .bannertexts a.login:hover {
-	background: rgb(134,94,59);
+	background: #00BE65;
 }
 .bannertexts a.signup {
 	background: rgb(255,255,255);
@@ -266,7 +266,7 @@ ul {
 	margin: -300px 0 0 0;
 }
 .aboutinside {
-	background: #25160d;
+	background: #2C1654;
 	padding: 40px;
 	border-radius: 10px;
 	color: #fff;
@@ -290,7 +290,7 @@ ul {
 }
 .aboutleft a {
 	background: rgb(247,155,73);
-	background: linear-gradient(180deg, rgba(247, 155, 73, 1) 0%, rgba(214, 114, 26, 1) 100%);
+	background: linear-gradient(180deg, rgba(247, 155, 73, 1) 0%, #fdbf50 100%);
 	color: #fff;
 	text-transform: uppercase;
 	padding: 0 30px;
@@ -315,7 +315,7 @@ ul {
 	padding: 30px 0;
 }
 .planbox {
-	background: url(images/planbg.png) no-repeat bottom center #33291b;
+	background: url(images/planbg.png) no-repeat bottom center #2C1654;
 	border-radius: 8px;
 	color: #fff;
 	text-align: center;
@@ -339,8 +339,8 @@ ul {
 	padding: 0 0 10px;
 }
 .planbox .minmax {
-	background: rgb(192,140,95);
-	background: linear-gradient(180deg, rgba(192, 140, 95, 1) 0%, rgba(134, 94, 59, 1) 100%);
+	background: #FF6464;
+	background: linear-gradient(180deg, #00be65) 0%, #00BE65 100%);
 	line-height: 36px;
 }
 .planbox .action, .account_deposit .vipplans .left .action {
@@ -353,7 +353,7 @@ ul {
 }
 .planbox .action a {
 	background: rgb(247,155,73);
-	background: linear-gradient(180deg, rgba(247, 155, 73, 1) 0%, rgba(214, 114, 26, 1) 100%);
+	background: linear-gradient(180deg, rgba(247, 155, 73, 1) 0%, #fdbf50 100%);
 	color: #fff;
 	padding: 0 30px;
 	border-radius: 50px;
@@ -443,7 +443,7 @@ ul {
 	padding: 0px 20px 10px;
 }
 .calculatorwrap select {
-	background: #271e1a url(images/calculatoricon.png) no-repeat right 20px center;
+	background: #FF6464 url(images/calculatoricon.png) no-repeat right 20px center;
 	border: none;
 	border-radius: 50px;
 	color: #fff;
@@ -465,13 +465,13 @@ ul {
 	    display: block;
 }
 .calculatorwrap input.depamt {
-	background: #271e1a url(images/calculatoricon1.png) no-repeat left 20px center;
+	background: #FF6464 url(images/calculatoricon1.png) no-repeat left 20px center;
 }
 .calculatorwrap span.deprate {
-	background: #271e1a url(images/calculatoricon2.png) no-repeat left 20px center;
+	background: #FF6464 url(images/calculatoricon2.png) no-repeat left 20px center;
 }
 .calculatorwrap span.totprof {
-	background: #271e1a url(images/calculatoricon3.png) no-repeat left 20px center;
+	background: #FF6464 url(images/calculatoricon3.png) no-repeat left 20px center;
 }
 .affiliatiowrap {
 	padding: 50px 0 0 0;
@@ -519,7 +519,7 @@ ul {
 	color: #e4832d;
 }
 .statbox {
-	background: #271e1a;
+	background: #FF6464;
 	border-radius: 6px;
 	padding: 15px;
 	margin: 12px 0;
@@ -548,7 +548,7 @@ ul {
 }
 .statwrap .action {
 	background: rgb(247,155,73);
-	background: linear-gradient(180deg, rgba(247, 155, 73, 1) 0%, rgba(214, 114, 26, 1) 100%);
+	background: linear-gradient(180deg, rgba(247, 155, 73, 1) 0%, #fdbf50 100%);
 	color: #fff;
 	border-radius: 50px;
 	padding: 10px 20px;
@@ -581,8 +581,8 @@ ul {
 .laststatislists .header {
 	padding: 22px 25px;
 	background: white;
-	background: rgb(192,140,95);
-	background: linear-gradient(180deg, rgba(192, 140, 95, 1) 0%, rgba(134, 94, 59, 1) 100%);
+	background: #FF6464;
+	background: linear-gradient(180deg, #00be65) 0%, #00BE65 100%);
 	border-radius: 10px 10px 0 0;
 	color: #fff;
 	font-size: 30px;
@@ -597,7 +597,7 @@ ul {
 	float: right;
 }
 .laststatislists .infos {
-	background: #292827;
+	background: #2C1654;
 	padding: 10px 20px 20px;
 	color: #fff;
 	border-radius: 0 0 10px 10px;
@@ -647,7 +647,7 @@ ul {
 .paymenticons span {
 }
 .footerwrap {
-	background: #1f1e1d;
+	background: #2C1654;
 	padding: 40px 0;
 }
 .footerlogo {
@@ -712,8 +712,8 @@ ul {
 	color: #e59a58;
 }
 .footerreg a {
-	background: rgb(192,140,95);
-	background: linear-gradient(180deg, rgba(192, 140, 95, 1) 0%, rgba(134, 94, 59, 1) 100%);
+	background: #FF6464;
+	background: linear-gradient(180deg, #00be65) 0%, #00BE65 100%);
 	color: #fff;
 	padding: 0 30px;
 	border-radius: 50px;
@@ -723,7 +723,7 @@ ul {
 	margin: 0 0 0 15px;
 }
 .footerreg a:hover {
-	background: rgb(192,140,95);
+	background: #FF6464;
 }
 .footersocial {
 	text-align: right
@@ -741,7 +741,7 @@ ul {
 	margin: 70px 0 50px 0;
 }
 .aboutcontactbox {
-	background: #271e1a;
+	background: #FF6464;
 	border-radius: 0px;
 	padding: 15px;
 	margin: 25px 0 0 0;
@@ -796,7 +796,7 @@ ul {
 .faq .nav-tabs, .aff-banners .nav-tabs {
 	border-bottom: 2px solid #fff;
 	border-radius: 0;
-	background: #271e1a;
+	background: #FF6464;
 }
 .faq .nav > li > a:hover, .aff-banners .nav > li > a:hover {
 	color: #fff;
@@ -822,12 +822,12 @@ ul {
 	border-radius: 0;
 }
 .faq .panel-default > .panel-heading {
-	color: #271e1a;
+	color: #FF6464;
 	background-color: #f5f5f5;
-	border-color: #271e1a;
+	border-color: #FF6464;
 }
 .faq .panel-default {
-	border-color: #271e1a;
+	border-color: #FF6464;
 	border: none;
 	border-bottom: 1px solid;
 }
@@ -948,8 +948,8 @@ ul {
     border-bottom: 1px solid #3e3b38;
     padding: 10px 8px;
     text-transform: uppercase;
-    background: rgb(134,94,59);
-    background: linear-gradient(0deg, rgba(134, 94, 59, 1) 0%, rgba(192, 140, 95, 1) 100%);
+    background: #00BE65;
+    background: linear-gradient(0deg, #00BE65 0%, #00be65) 100%);
     font-weight: 600;
 }
 
@@ -1042,8 +1042,8 @@ ul {
 }
 .loginpagebottom a {
 	color: #fff;
-	background: rgb(134,94,59);
-	background: linear-gradient(0deg, rgba(134, 94, 59, 1) 0%, rgba(192, 140, 95, 1) 100%);
+	background: #00BE65;
+	background: linear-gradient(0deg, #00BE65 0%, #00be65) 100%);
 	height: 40px;
 	padding: 0 30px;
 	border-radius: 50px;
@@ -1054,7 +1054,7 @@ ul {
 	text-align: center;
 }
 .loginpagebottom a:hover {
-	background: rgb(134,94,59);
+	background: #00BE65;
 }
 .small_text {
 	color: #e88934;
@@ -1078,8 +1078,8 @@ ul {
 .accountnav ul {
 }
 .accountnav ul li {
-	background: rgb(59,45,37);
-	background: linear-gradient(180deg, rgba(59, 45, 37, 1) 0%, rgba(33, 19, 11, 1) 100%);
+	background: #2c1654;
+	background: linear-gradient(180deg, #2c1654 0%, rgba(33, 19, 11, 1) 100%);
 	margin: 0 0 3px;
 	padding: 2px;
 	border-radius: 50px;
@@ -1106,8 +1106,8 @@ ul {
 	margin: 0
 }
 .accstats {
-	background: rgb(134,94,59);
-	background: linear-gradient(0deg, rgba(134, 94, 59, 1) 0%, rgba(192, 140, 95, 1) 100%);
+	background: #00BE65;
+	background: linear-gradient(0deg, #00BE65 0%, #00be65) 100%);
 	border-radius: 4px;
 }
 .accountbox {
@@ -1253,7 +1253,7 @@ ul {
 	line-height: 36px;
 	border-radius: 50px;
 	background: rgb(247,155,73);
-	background: linear-gradient(180deg, rgba(247, 155, 73, 1) 0%, rgba(214, 114, 26, 1) 100%);
+	background: linear-gradient(180deg, rgba(247, 155, 73, 1) 0%, #fdbf50 100%);
 	color: #fff;
 	z-index: 9999;
 	font-weight: 600;
@@ -1554,7 +1554,7 @@ to {
 	padding: 15px 20px 5px;
 }
 .calculatorwrap {
-	background: url(images/calculatorbg.jpg) no-repeat top center #271e1a;
+	background: url(images/calculatorbg.jpg) no-repeat top center #FF6464;
 }
 .affiliationthumb, .footerbottom, .footersocial, .footerlogo p, .footerlinks, .footeraddress p, .footeraddress {
 	text-align: center;
